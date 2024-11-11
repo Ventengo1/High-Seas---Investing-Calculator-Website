@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Investment Calculator</title>
   <link rel="stylesheet" href="style.css">
-</head
+</head>
 <body>
   <div class="container">
     <h1 style="color: #333;">Investment Calculator</h1>
@@ -23,6 +23,9 @@
       <label for="investmentPeriod">Investment Period (years):</label>
       <input type="number" id="investmentPeriod" placeholder="Enter number of years">
 
+      <label for="savingsInterestRate">Savings Account Interest Rate (%):</label>
+      <input type="number" id="savingsInterestRate" placeholder="Enter savings interest rate">
+
       <button onclick="calculateReturn()">Calculate</button>
     </div>
 
@@ -31,7 +34,18 @@
     <div class="info" style="background-color: #f2f2f2; padding: 20px;">
       <h2>What is Investing?</h2>
       <p>Investing is the process of allocating money to assets with the expectation of generating a return. It's like planting a seed and watching it grow over time.</p>
-      <p>Getting Started is Easy!</p>
+
+      <h2>Savings Account vs. Investment Account Comparison</h2>
+      <p>A Savings Account is a type of deposit account at a bank that typically offers a low but stable interest rate. Your money grows slowly, primarily from the fixed interest earned, and there's little risk involved.</p>
+      <p>On the other hand, an Investment Account (like one invested in stocks, bonds, or mutual funds) has the potential to earn much higher returns. However, it also comes with a risk of losing value in the short term, as investment returns are not guaranteed and depend on market performance.</p>
+
+      <h3>Example</h3>
+      <p>If you start with an initial amount of $1,000 and contribute $100 monthly over 10 years:</p>
+      <ul>
+        <li><strong>Savings Account:</strong> At an average 1% annual interest rate, your account could grow to around $13,000, thanks to compounded interest.</li>
+        <li><strong>Investment Account:</strong> At an average 7% annual return rate, your account could potentially grow to over $18,000. However, remember that investments can fluctuate and may not provide a steady rate of return.</li>
+      </ul>
+      
       <h2>Learn More About Investing</h2>
       <p>To delve deeper into the world of investing, check out these helpful resources:</p>
       <ul>
