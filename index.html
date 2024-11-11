@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investment Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head
+<body>
+  <div class="container">
+    <h1 style="color: #333;">Investment Calculator</h1>
+    <p style="color: #666;">Start your financial journey today!</p>
+
+    <div class="calculator">
+      <label for="initialInvestment">Initial Investment:</label>
+      <input type="number" id="initialInvestment" placeholder="Enter initial amount">
+
+      <label for="monthlyContribution">Monthly Contribution:</label>
+      <input type="number" id="monthlyContribution" placeholder="Enter monthly contribution">
+
+      <label for="annualReturnRate">Annual Return Rate (%):</label>
+      <input type="number" id="annualReturnRate" placeholder="Enter annual return rate">
+
+      <label for="investmentPeriod">Investment Period (years):</label>
+      <input type="number" id="investmentPeriod" placeholder="Enter number of years">
+
+      <button onclick="calculateReturn()">Calculate</button>
+    </div>
+
+    <div id="result"></div>
+
+    <div class="info" style="background-color: #f2f2f2; padding: 20px;">
+      <h2>What is Investing?</h2>
+      <p>Investing is the process of allocating money to assets with the expectation of generating a return. It's like planting a seed and watching it grow over time.</p>
+      <p>Getting Started is Easy!</p>
+      <h2>Learn More About Investing</h2>
+      <p>To delve deeper into the world of investing, check out these helpful resources:</p>
+      <ul>
+        <li><a href="https://www.investopedia.com/">Investopedia</a></li>
+        <li><a href="https://www.fool.com/">The Motley Fool</a></li>
+        <li><a href="https://www.schwab.com/learn-and-plan">Charles Schwab</a></li>
+        <li><a href="https://www.fidelity.com/learning-center">Fidelity</a></li>
+      </ul>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
